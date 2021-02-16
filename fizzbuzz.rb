@@ -2,5 +2,7 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(x)
-
+  y = x / 3
+  if y.class = Fixnum
+    return 'fizz'
 end
