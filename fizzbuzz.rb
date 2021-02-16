@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(x)
-  y = x / 3
   if y.class == Fixnum
+    y = x / 3
     return 'Fizz'
-  z = x / 5 
   elsif z.class == Fixnum
+    z = x / 5
     return 'Buzz'
   end
 end
