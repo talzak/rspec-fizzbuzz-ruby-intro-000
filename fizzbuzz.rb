@@ -5,5 +5,8 @@ def fizzbuzz(x)
   y = x / 3
   if y.class == Fixnum
     return 'Fizz'
+  z = x / 5 
+  elsif z.class == Fixnum
+    return 'Buzz'
   end
 end
